@@ -2,9 +2,6 @@
 
 This project implements an end-to-end Deep Learning pipeline to automatically extract urban morphology metrics (Building Coverage Ratio & estimated Floor Area Ratio) from high-resolution satellite imagery.
 
-## Project Overview
-Urban planning and telecommunications (e.g., 5G network design, Fiber Optics routing) require precise building density data. Manually estimating this is prone to human bias. This project uses AI to achieve pixel-perfect accuracy.
-
 **Key Features:**
 - **Semantic Segmentation:** Uses a U-Net architecture with a ResNet50 encoder (transfer learning via ImageNet).
 - **High-Res Handling:** Implements Stochastic Tiling (RandomCrop 512x512 from 1500x1500 images) to preserve architectural details without aliasing.
